@@ -1,2 +1,1 @@
-# ReviewGeneTwo
-Review Gene 2
+This implementation introduces agent-based functionality to a chatbot application. It features two distinct agents: one designed for Amazon product searches and another for general web searches through Google, leveraging Tavily's API. The agents employ the REACT prompt methodology, which involves reasoning about the query and taking appropriate actions. The agent executor intelligently selects the relevant search tool based on the user's input, and the REACT prompts facilitate the answer generation. To prevent infinite loops during complex queries, a limit of 5 iterations for the Reason-Action cycle has been implemented. A basic web interface, built with Gradio, allows for easy interaction with the chatbot.
